@@ -24,8 +24,7 @@
     margin: 0px 3px;
 }
 .Title::after {
-    position: relative;
-    left: 25%;
+    right: 1%;
     content: url("../assets/Polygon.png");
     transition: all 1s;
     transform: rotate(0deg);
@@ -43,6 +42,13 @@
     width: 100%;
     max-height: 83px;
     overflow-y: scroll;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    scrollbar-color: #cbd6e2 transparent;
+    scrollbar-width: thin;
+    flex: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     /* width */
     &::-webkit-scrollbar {
         width: 3px;
@@ -62,10 +68,6 @@
 }
 .DropdownMenu1 {
     opacity: 1;
-}
-.Dropdown-label {
-    position: relative;
-    top: 0;
 }
 
 input {

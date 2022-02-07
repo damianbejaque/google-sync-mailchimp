@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './DropdownMenu.scss'
+import './Dropdown.scss'
 const DropdownMenu = (props) => {
 
   const { contacts } = props;
@@ -18,12 +18,10 @@ const DropdownMenu = (props) => {
     if (contacts)
       return (
         contacts.map((el, i) => {
-          return <span>
-            <label className='Dropdown-label'>
-              <input className='Dropdown-checkbox' key={i} type='checkbox' value={el.value} checked={checkedState[i]} onChange={() => handleOnChange(i)} />
-              {el.label}
-            </label>
-          </span>
+          return <label className='Dropdown-label'>
+            <input className='Dropdown-checkbox' key={i} type='checkbox' value={el.value} checked={checkedState[i]} onChange={() => handleOnChange(i)} />
+            {el.label}
+          </label>
         })
       )
   }

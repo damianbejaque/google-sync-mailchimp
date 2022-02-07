@@ -1,10 +1,10 @@
 body {
   box-sizing: border-box;
-  max-width: 1440px;
+  width: 1440px;
   height: 1024px;
   font-family: Noto Sans;
   background: url("./assets/Blob.png") no-repeat center;
   margin: 0 auto;
-  padding: 10%;
+  padding: 164px 342px;
   background-position: 50% 25%;
 }
