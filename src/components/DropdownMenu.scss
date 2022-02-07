@@ -3,16 +3,27 @@
     color: #33475b;
     font-size: 16px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: column;
     padding: 0 5%;
+    align-items: baseline;
 }
-.DropdownMenu::before {
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.Title::before {
     content: url("../assets/Vector.png");
 }
-.DropdownMenu::after {
+.Title::after {
     position: relative;
     left: 20%;
     content: url("../assets/Polygon.png");
+}
+.Dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }

@@ -3,7 +3,6 @@ import './DropdownMenu.scss'
 const DropdownMenu = (props) => {
 
   const { contacts } = props;
-  console.log(contacts)
   const [active, setActive] = useState(false);
 
   const showData = () => {
@@ -15,8 +14,12 @@ const DropdownMenu = (props) => {
       )
   }
   return <div className='DropdownMenu'>
-    <p onClick={() => setActive(!active)}>All contacts</p>
-    {active && showData()}
+    <div className='Title'>
+      <p onClick={() => setActive(!active)}>All contacts</p>
+    </div>
+    <div className='Dropdown'>
+      {active && showData()}
+    </div>
   </div>;
 }
 

@@ -12,7 +12,8 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    transition: transform 1s;
+    transition: all 1s;
+    transform: rotate(0deg);
 }
 .button-logo1 {
     transform: rotate(180deg);

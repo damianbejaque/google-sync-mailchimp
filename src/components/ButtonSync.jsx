@@ -7,11 +7,10 @@ function ButtonSync() {
 
     const toggleClick = () => {
         setSyncContacts(!syncContacts)
-        document.getElementsByClassName('button-image')[0].classList.add("button-logo1");
     }
 
     return <div className='ButtonSync' onClick={() => toggleClick()}>
-        <div className="button-logo">
+        <div className={`button-logo ${syncContacts ? '' : 'button-logo1'}`}>
             <img src={logo} className="button-image" alt="logo" />
         </div>
         <p>
