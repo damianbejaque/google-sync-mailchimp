@@ -1,7 +1,7 @@
 ## Video about the tecnical Design
 
-https://drive.google.com/file/d/1f--0OszlSfGHi7KIA3s38llK_wNtIHYv/view?usp=sharing
 
+[Video](https://drive.google.com/file/d/1f--0OszlSfGHi7KIA3s38llK_wNtIHYv/view?usp=sharing)
 ## Available Scripts
 
 In the project directory, you can run:
