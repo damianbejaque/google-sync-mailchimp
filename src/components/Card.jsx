@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Card.scss'
-import DropdownMenu from "./DropdownMenu";
+import Dropdown from "./Dropdown";
 
 
 const Card = (props) => {
@@ -13,7 +13,7 @@ const Card = (props) => {
             </div>
             <h3>{application}</h3>
             <p> {explainText} </p>
-            <DropdownMenu contacts={contacts} />
+            <Dropdown contacts={contacts} />
         </div>
     )
 
