@@ -1,0 +1,25 @@
+.ButtonSync {
+    margin: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-logo {
+    background: #fff;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: transform 1s;
+}
+.button-logo1 {
+    transform: rotate(180deg);
+}
+
+.button-image {
+    background: #fff;
+    width: 63px;
+    margin: auto;
+}

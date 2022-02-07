@@ -1,0 +1,18 @@
+.DropdownMenu {
+    background: #f5f8fa;
+    color: #33475b;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.DropdownMenu::before {
+    content: url("../assets/Vector.png");
+}
+.DropdownMenu::after {
+    position: relative;
+    left: 20%;
+    content: url("../assets/Polygon.png");
+}
